@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  BBCNewsApi
+//
+//  Created by Alexander Gvardian on 06.02.17.
+//  Copyright © 2017 home. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Masonry.h"
+#import "AFNetworking.h"
+#import "FEMDeserializer.h"
+#import "FEMMapping.h"
+#import "API.h"

@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D8E80826207BB3906BE2290 /* libPods-BBCNewsApi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE0FB6B811825E5D98626F6 /* libPods-BBCNewsApi.a */; };
+		9D6F7CB11E4867D00026BE99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6F7CB01E4867D00026BE99 /* main.m */; };
+		9D6F7CB41E4867D00026BE99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6F7CB31E4867D00026BE99 /* AppDelegate.m */; };
+		9D6F7CBA1E4867D00026BE99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D6F7CB81E4867D00026BE99 /* Main.storyboard */; };
+		9D6F7CBC1E4867D00026BE99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D6F7CBB1E4867D00026BE99 /* Assets.xcassets */; };
+		9D6F7CBF1E4867D00026BE99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D6F7CBD1E4867D00026BE99 /* LaunchScreen.storyboard */; };
+		9DEA7C401E60221C000D5C61 /* BBCNewsMappingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA7C3F1E60221C000D5C61 /* BBCNewsMappingModel.m */; };
+		9DEA7C481E602223000D5C61 /* BBCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA7C431E602223000D5C61 /* BBCTableViewCell.m */; };
+		9DEA7C491E602223000D5C61 /* BBCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA7C451E602223000D5C61 /* BBCTableViewController.m */; };
+		9DEA7C4A1E602223000D5C61 /* BBCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA7C471E602223000D5C61 /* BBCWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49930FDE846503A290D1E75F /* Pods-BBCNewsApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBCNewsApi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBCNewsApi/Pods-BBCNewsApi.debug.xcconfig"; sourceTree = "<group>"; };
+		4BE0FB6B811825E5D98626F6 /* libPods-BBCNewsApi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BBCNewsApi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6F7CAC1E4867D00026BE99 /* BBCNewsApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBCNewsApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6F7CB01E4867D00026BE99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D6F7CB21E4867D00026BE99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D6F7CB31E4867D00026BE99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D6F7CB91E4867D00026BE99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D6F7CBB1E4867D00026BE99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D6F7CBE1E4867D00026BE99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D6F7CC01E4867D00026BE99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D6F7CC61E4867EE0026BE99 /* API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
+		9D6F7CC71E4867FA0026BE99 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9DEA7C3E1E60221C000D5C61 /* BBCNewsMappingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCNewsMappingModel.h; sourceTree = "<group>"; };
+		9DEA7C3F1E60221C000D5C61 /* BBCNewsMappingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCNewsMappingModel.m; sourceTree = "<group>"; };
+		9DEA7C421E602223000D5C61 /* BBCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCTableViewCell.h; sourceTree = "<group>"; };
+		9DEA7C431E602223000D5C61 /* BBCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCTableViewCell.m; sourceTree = "<group>"; };
+		9DEA7C441E602223000D5C61 /* BBCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCTableViewController.h; sourceTree = "<group>"; };
+		9DEA7C451E602223000D5C61 /* BBCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCTableViewController.m; sourceTree = "<group>"; };
+		9DEA7C461E602223000D5C61 /* BBCWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCWebViewController.h; sourceTree = "<group>"; };
+		9DEA7C471E602223000D5C61 /* BBCWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCWebViewController.m; sourceTree = "<group>"; };
+		D58D83B11F9E8A4D44078699 /* Pods-BBCNewsApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBCNewsApi.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBCNewsApi/Pods-BBCNewsApi.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D6F7CA91E4867D00026BE99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8E80826207BB3906BE2290 /* libPods-BBCNewsApi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		289B30AA332374AFB0D37691 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BE0FB6B811825E5D98626F6 /* libPods-BBCNewsApi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D6F7CA31E4867D00026BE99 = {
+			isa = PBXGroup;
+			children = (
+				9D6F7CAE1E4867D00026BE99 /* BBCNewsApi */,
+				9D6F7CAD1E4867D00026BE99 /* Products */,
+				FC7A3B85B2A739246D93836C /* Pods */,
+				289B30AA332374AFB0D37691 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D6F7CAD1E4867D00026BE99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D6F7CAC1E4867D00026BE99 /* BBCNewsApi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D6F7CAE1E4867D00026BE99 /* BBCNewsApi */ = {
+			isa = PBXGroup;
+			children = (
+				9DEA7C3D1E60221C000D5C61 /* Model */,
+				9D6F7CB21E4867D00026BE99 /* AppDelegate.h */,
+				9D6F7CB31E4867D00026BE99 /* AppDelegate.m */,
+				9DEA7C411E602223000D5C61 /* VC */,
+				9D6F7CB81E4867D00026BE99 /* Main.storyboard */,
+				9D6F7CBB1E4867D00026BE99 /* Assets.xcassets */,
+				9D6F7CBD1E4867D00026BE99 /* LaunchScreen.storyboard */,
+				9D6F7CC01E4867D00026BE99 /* Info.plist */,
+				9D6F7CAF1E4867D00026BE99 /* Supporting Files */,
+				9D6F7CC61E4867EE0026BE99 /* API.h */,
+				9D6F7CC71E4867FA0026BE99 /* PrefixHeader.pch */,
+			);
+			path = BBCNewsApi;
+			sourceTree = "<group>";
+		};
+		9D6F7CAF1E4867D00026BE99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D6F7CB01E4867D00026BE99 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DEA7C3D1E60221C000D5C61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DEA7C3E1E60221C000D5C61 /* BBCNewsMappingModel.h */,
+				9DEA7C3F1E60221C000D5C61 /* BBCNewsMappingModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DEA7C411E602223000D5C61 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				9DEA7C421E602223000D5C61 /* BBCTableViewCell.h */,
+				9DEA7C431E602223000D5C61 /* BBCTableViewCell.m */,
+				9DEA7C441E602223000D5C61 /* BBCTableViewController.h */,
+				9DEA7C451E602223000D5C61 /* BBCTableViewController.m */,
+				9DEA7C461E602223000D5C61 /* BBCWebViewController.h */,
+				9DEA7C471E602223000D5C61 /* BBCWebViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		FC7A3B85B2A739246D93836C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49930FDE846503A290D1E75F /* Pods-BBCNewsApi.debug.xcconfig */,
+				D58D83B11F9E8A4D44078699 /* Pods-BBCNewsApi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D6F7CAB1E4867D00026BE99 /* BBCNewsApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D6F7CC31E4867D00026BE99 /* Build configuration list for PBXNativeTarget "BBCNewsApi" */;
+			buildPhases = (
+				D13D6F15317BBECBD325472C /* [CP] Check Pods Manifest.lock */,
+				9D6F7CA81E4867D00026BE99 /* Sources */,
+				9D6F7CA91E4867D00026BE99 /* Frameworks */,
+				9D6F7CAA1E4867D00026BE99 /* Resources */,
+				DF20E207117BD72DB376F639 /* [CP] Embed Pods Frameworks */,
+				BD8EF01B1A6ED73898B05F8E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBCNewsApi;
+			productName = BBCNewsApi;
+			productReference = 9D6F7CAC1E4867D00026BE99 /* BBCNewsApi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D6F7CA41E4867D00026BE99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = home;
+				TargetAttributes = {
+					9D6F7CAB1E4867D00026BE99 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9D6F7CA71E4867D00026BE99 /* Build configuration list for PBXProject "BBCNewsApi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D6F7CA31E4867D00026BE99;
+			productRefGroup = 9D6F7CAD1E4867D00026BE99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D6F7CAB1E4867D00026BE99 /* BBCNewsApi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D6F7CAA1E4867D00026BE99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6F7CBF1E4867D00026BE99 /* LaunchScreen.storyboard in Resources */,
+				9D6F7CBC1E4867D00026BE99 /* Assets.xcassets in Resources */,
+				9D6F7CBA1E4867D00026BE99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD8EF01B1A6ED73898B05F8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBCNewsApi/Pods-BBCNewsApi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D13D6F15317BBECBD325472C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF20E207117BD72DB376F639 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBCNewsApi/Pods-BBCNewsApi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D6F7CA81E4867D00026BE99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEA7C491E602223000D5C61 /* BBCTableViewController.m in Sources */,
+				9D6F7CB41E4867D00026BE99 /* AppDelegate.m in Sources */,
+				9DEA7C401E60221C000D5C61 /* BBCNewsMappingModel.m in Sources */,
+				9D6F7CB11E4867D00026BE99 /* main.m in Sources */,
+				9DEA7C481E602223000D5C61 /* BBCTableViewCell.m in Sources */,
+				9DEA7C4A1E602223000D5C61 /* BBCWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D6F7CB81E4867D00026BE99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D6F7CB91E4867D00026BE99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D6F7CBD1E4867D00026BE99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D6F7CBE1E4867D00026BE99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D6F7CC11E4867D00026BE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D6F7CC21E4867D00026BE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D6F7CC41E4867D00026BE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49930FDE846503A290D1E75F /* Pods-BBCNewsApi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/alexandergvardian/Documents/BBSNews/BBCNewsApi/BBCNewsApi/PrefixHeader.pch;
+				INFOPLIST_FILE = BBCNewsApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.BBCNewsApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D6F7CC51E4867D00026BE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D58D83B11F9E8A4D44078699 /* Pods-BBCNewsApi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/alexandergvardian/Documents/BBSNews/BBCNewsApi/BBCNewsApi/PrefixHeader.pch;
+				INFOPLIST_FILE = BBCNewsApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.BBCNewsApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D6F7CA71E4867D00026BE99 /* Build configuration list for PBXProject "BBCNewsApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6F7CC11E4867D00026BE99 /* Debug */,
+				9D6F7CC21E4867D00026BE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D6F7CC31E4867D00026BE99 /* Build configuration list for PBXNativeTarget "BBCNewsApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6F7CC41E4867D00026BE99 /* Debug */,
+				9D6F7CC51E4867D00026BE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D6F7CA41E4867D00026BE99 /* Project object */;
+}
